@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+a{
+    text-decoration: none;
+    color: #93D94E;
+}
+body{
+    background-color: #233240;
+    color: #93D94E;
+    font-family: Arial, Helvetica, sans-serif;/*change to selected font roboto*/
+}
+section{
+    height: 6rem;
+}
+header{
+    display: flex;
+    background-color: #3B8C66;
+    padding: 0.25rem;
+    height: 6rem;
+    margin: 0 -0.4rem;
+    margin-top: -2rem;
+    flex-direction: row;
+}
+header div p {
+    display: flex;
+    align-items: center;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    color: #93D94E;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-left: 55rem;
+    padding-top: 0.3rem;
+    align-items: center;
+}
+main{
+    size: auto;
+    margin: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0%;
+}
+footer {
+    text-align: center;
+}
+.about-link{
+    margin-top: -1.5rem ;
+    height:  3rem;
+    padding-right: 0.5rem;
+}
+.index-link{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: -1.5rem ;
+    height:  3rem;
+}
+.portfolio-link{
+    padding-left: 0.5rem;
+    padding-right: 0rem;
+    margin-top: -1.5rem ;
+    height:  3rem;
+}
+h1{
+    font-size: 2rem;
+}
+/* Color Theme Swatches in Hex
+.Aurora-Borealis-reflected-between-two-fjords-in-Tromsø-1-hex { color: #233240; }
+.Aurora-Borealis-reflected-between-two-fjords-in-Tromsø-2-hex { color: #3B8C66; }
+.Aurora-Borealis-reflected-between-two-fjords-in-Tromsø-3-hex { color: #347355; }
+.Aurora-Borealis-reflected-between-two-fjords-in-Tromsø-4-hex { color: #60BF81; }
+.Aurora-Borealis-reflected-between-two-fjords-in-Tromsø-5-hex { color: #93D94E; }
